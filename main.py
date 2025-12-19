@@ -5,7 +5,7 @@ app = FastAPI(title="Calculator API")
 
 @app.get("/")
 def root():
-    return {"message": "Welcome to FastAPI Calculator version 2."}
+    return {"message": "Welcome to FastAPI Calculator version 3."}
 
 
 @app.get("/add")
